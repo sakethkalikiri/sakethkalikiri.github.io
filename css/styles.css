@@ -10103,6 +10103,26 @@ p.lead {
   background-color: #c3002f;
 }
 
+.social-icon.linked-in:hover{
+  background-color: #0e76a8;
+}
+
+.social-icon.facebook:hover{
+  background-color: #3b5998;
+}
+
+.social-icon.twitter:hover{
+  background-color: #1DA1F2;
+}
+
+.social-icon.whatsapp:hover{
+  background-color: #25D366;
+}
+
+.social-icon.instagram:hover{
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+}
+
 .dev-icons {
   font-size: 3rem;
 }
