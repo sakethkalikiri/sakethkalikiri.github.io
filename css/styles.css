@@ -10119,6 +10119,10 @@ p.lead {
   background-color: #25D366;
 }
 
+.social-icon.github:hover{
+  background-color: #171515;
+}
+
 .social-icon.instagram:hover{
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
 }
@@ -10138,6 +10142,50 @@ section.resume-section {
 }
 section.resume-section .resume-section-content {
   width: 100%;
+}
+
+#myButton {
+  position: fixed;
+  bottom: 3%;
+  right: 2%;
+}
+
+.download-button {
+  background-color: #dd0031 !important;
+  font-weight: 800;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.75);
+  border-radius: 5px;
+  border-width: 0px;
+  padding: 10px 10px 10px 10px !important;
+  outline: none !important;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 60%);
+  transition: all 0.4s;
+  transition-timing-function:cubic-bezier(0.5, 2, 0, 0.5);
+}
+
+.title-name {
+  letter-spacing: 0.05rem;
+  font-family: inherit;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #fff;
+}
+
+.download-button:hover{
+  color: #fff;
+  outline: none;
+  transform:scale(1.04,1.04);
+}
+
+.download-button:visited, .download-button:focus{
+  border: none !important;
+  outline: none;
+}
+
+.file-src {
+  display: none !important;
 }
 
 @media (min-width: 768px) {
