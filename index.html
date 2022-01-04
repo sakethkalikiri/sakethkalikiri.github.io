@@ -18,9 +18,10 @@
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top"
-                ><span class="d-block d-lg-none">Saketh Kalikiri</span><span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="" /></span></a
-            ><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none title-name">Saketh Kalikiri</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="" /></span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
@@ -43,12 +44,14 @@
                         I follow Agile methodology for Software Development life cycle. 
                         With my personal interest I've learnt developing web applications using MEAN/MERN tech stack. </p>
                     <div class="social-icons">
-                        <a class="social-icon linked-in" href="https://www.linkedin.com/in/sakethkalikiri7/"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon facebook" href="https://www.facebook.com/saketh.fb/"><i class="fab fa-facebook-f"></i></a>
-                        <a class="social-icon instagram" href="https://www.instagram.com/saket.ig/"><i class="fab fa-instagram"></i></a>
-                        <a class="social-icon twitter" href="https://twitter.com/saketh_kalikiri"><i class="fab fa-twitter"></i></a>
-                        <a class="social-icon whatsapp" href="https://wa.me/918500030047"><i class="fab fa-whatsapp"></i></a>
-                        
+                        <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><a class="social-icon linked-in" href="https://www.linkedin.com/in/sakethkalikiri7/"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li class="list-inline-item"><a class="social-icon github" href="https://github.com/sakethkalikiri"><i class="fab fa-github"></i></a></li>
+                        <li class="list-inline-item"><a class="social-icon facebook" href="https://www.facebook.com/saketh.fb/"><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="list-inline-item"><a class="social-icon instagram" href="https://www.instagram.com/saket.ig/"><i class="fab fa-instagram"></i></a></li>
+                        <li class="list-inline-item"><a class="social-icon twitter" href="https://twitter.com/saketh_kalikiri"><i class="fab fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a class="social-icon whatsapp" href="https://wa.me/918500030047"><i class="fab fa-whatsapp"></i></a></li>
+                        </ul>
                     </div>
                 </div>
             </section>
@@ -257,6 +260,10 @@
                     </ul>
                 </div>
             </section>
+            <div id="myButton">
+                <button class="download-button" onclick="document.getElementById('file-src').click()">Download Resume</button>
+                <a id="file-src" class="file-src" href="./assets/files/Saketh_Resume.pdf" target="_blank" download>Download Resume</a>
+            </div>
         </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
